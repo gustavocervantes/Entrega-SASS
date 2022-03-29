@@ -1,0 +1,40 @@
+.botonera{
+    background-color: $mainColor;
+    padding: 5px 30px;
+    position: static;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        width: $w-100;
+
+    }
+
+    ul{
+        display: flex;
+
+        li{
+            list-style: none;
+            margin-right: 10px;
+            a{
+                color: lightblue;
+                font-size: $textSm;
+                font-family: $fontMain;
+                text-decoration: none;
+                &:hover{
+                    color: $keyColor;
+                }
+            }
+
+        }
+    }
+}
+
+nav{
+    img{
+        width: 4em;
+        height: 4em;
+        border-radius: 15px;
+    }
+}

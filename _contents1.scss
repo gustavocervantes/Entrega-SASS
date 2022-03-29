@@ -1,0 +1,21 @@
+#principal{
+    background-color: lightblue;
+    h3{
+        font-family: $fontMain;
+        font-size: $textLg;
+        color: $keyColor;
+        padding: 0 20px;
+    }
+    p{
+        color: grey;
+        font-size: $textSm;
+        line-height: 1.4em;
+        padding: 20px;
+        font-family: $fontMain;
+        a{
+            color: grey;
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+    }
+}
